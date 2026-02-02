@@ -1,1 +1,18 @@
-
+{
+  "version": "1.0.0",
+  "rss": "",
+  "servers": [
+    {
+      "id": "mi-server",
+      "name": "EL SERVER DE MI DIOS",
+      "description": "Si ves esto, es que lo lograste",
+      "icon": "https://via.placeholder.com/64",
+      "address": "localhost:25565",
+      "mainServer": true,
+      "autoconnect": false,
+      "version": "1.20.1",
+      "type": "Vanilla",
+      "modules": []
+    }
+  ]
+}
