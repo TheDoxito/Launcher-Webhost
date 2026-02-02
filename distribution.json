@@ -1,18 +1,36 @@
 {
-  "version": "1.0.0",
+  "version": "1.0.1",
   "rss": "",
   "servers": [
     {
       "id": "server1",
-      "name": "BETATEST",
-      "description": "Beta Privada",
+      "name": "BETATEST FORGE",
+      "description": "Beta Privada con Mods",
       "icon": "https://via.placeholder.com/64",
       "address": "localhost:25565",
       "mainServer": true,
       "autoconnect": false,
       "version": "1.20.1",
-      "type": "Vanilla",
-      "modules": []
+      "type": "Forge",
+      "modules": [
+        {
+          "id": "net.minecraftforge:forge:1.20.1-47.2.0",
+          "name": "Forge 1.20.1",
+          "type": "Library",
+          "required": true
+        },
+        {
+          "id": "mouse-tweaks",
+          "name": "Mouse Tweaks",
+          "type": "ForgeMod",
+          "required": true,
+          "artifact": {
+            "url": "https://mediafilez.forgecdn.net/files/4651/409/MouseTweaks-forge-mc1.20.1-2.25.jar",
+            "size": 10000,
+            "MD5": "ignore"
+          }
+        }
+      ]
     }
   ]
 }
