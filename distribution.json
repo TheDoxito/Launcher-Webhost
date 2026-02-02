@@ -3,7 +3,7 @@
   "rss": "",
   "servers": [
     {
-      "id": "server",
+      "id": "betatest-v1",
       "name": "Betatest",
       "description": "Betatest Privados",
       "icon": "https://via.placeholder.com/64",
