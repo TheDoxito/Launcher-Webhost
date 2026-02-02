@@ -3,8 +3,8 @@
   "rss": "",
   "servers": [
     {
-      "id": "server-pruebas",
-      "name": "EL SERVER DE MI DIOS",
+      "id": "betatestpriv",
+      "name": "betatest",
       "description": "Si ves esto, todo funciona",
       "icon": "https://via.placeholder.com/64",
       "address": "localhost:25565",
