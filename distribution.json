@@ -3,23 +3,16 @@
   "rss": "",
   "servers": [
     {
-      "id": "Betatest",
-      "name": "Betatest",
-      "description": "Instacia",
+      "id": "server-pruebas",
+      "name": "EL SERVER DE MI DIOS",
+      "description": "Si ves esto, todo funciona",
       "icon": "https://via.placeholder.com/64",
       "address": "localhost:25565",
       "mainServer": true,
       "autoconnect": false,
       "version": "1.20.1",
-      "type": "Forge",
-      "modules": [
-        {
-          "id": "net.minecraftforge:forge:1.20.1-47.2.0",
-          "name": "Forge 1.20.1",
-          "type": "Library",
-          "required": true
-        }
-      ]
+      "type": "Vanilla",
+      "modules": []
     }
   ]
 }
